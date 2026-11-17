@@ -57,7 +57,7 @@ void sendSingleWord(uint8_t a1, uint8_t a2, uint8_t a3, uint8_t a4,
   sendTrit(a4);
   sendTrit(0);  
   sendTrit(d0);
-  sendT1rit(d1);
+  sendTrit(d1);
   sendTrit(d2);
   sendTrit(s);  
 }
